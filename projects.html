@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project showcase of Abhishek Bhat.">
+    <title>Projects | Abhishek Bhat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <header class="project-header">
+        <a href="index.html" class="back-link">Back to Portfolio</a>
+        <h1>Project Showcase</h1>
+        <p>Explore projects one by one</p>
+    </header>
+
+    <main class="showcase-wrap">
+        <section class="showcase" id="showcase">
+            <article class="project-slide active" data-index="1">
+                <p class="tag">Project 01</p>
+                <h2>AI-Powered Legal Documentation Assistant</h2>
+                <p>Built an assistant that drafts and summarizes legal documents with clause suggestions and risk identification.</p>
+                <p class="stack">Stack: Python, Flask, NLP, OpenAI API</p>
+                <div class="slide-links">
+                    <a href="https://github.com/abhishek-bhat2005" target="_blank" rel="noopener">Repository</a>
+                    <a href="#">Demo</a>
+                </div>
+            </article>
+
+            <article class="project-slide" data-index="2">
+                <p class="tag">Project 02</p>
+                <h2>AI Career Guidance Platform (Group Project)</h2>
+                <p>Developed a platform that helps students explore career paths and required skills with a responsive UI and Flask backend.</p>
+                <p class="stack">Stack: HTML, CSS, JavaScript, Python, Flask</p>
+                <div class="slide-links">
+                    <a href="https://github.com/abhishek-bhat2005" target="_blank" rel="noopener">Repository</a>
+                    <a href="#">App</a>
+                </div>
+            </article>
+
+            <article class="project-slide" data-index="3">
+                <p class="tag">Project 03</p>
+                <h2>Face Emotion Detection Algorithm</h2>
+                <p>Built a real-time emotion detection system using OpenCV and CNN to classify emotions from live webcam input.</p>
+                <p class="stack">Stack: Python, OpenCV, CNN, Flask</p>
+                <div class="slide-links">
+                    <a href="https://github.com/abhishek-bhat2005" target="_blank" rel="noopener">Repository</a>
+                    <a href="#">Application</a>
+                </div>
+            </article>
+
+            <article class="project-slide" data-index="4">
+                <p class="tag">Project 04</p>
+                <h2>MediCare Hospital Management System</h2>
+                <p>Built a hospital system for doctors, patients, appointments, and billing with Dockerized deployment and dashboard insights.</p>
+                <p class="stack">Stack: Python, Flask, MongoDB, Docker, HTML, CSS, JavaScript</p>
+                <div class="slide-links">
+                    <a href="https://github.com/abhishek-bhat2005" target="_blank" rel="noopener">Repository</a>
+                    <a href="#">Application</a>
+                </div>
+            </article>
+        </section>
+
+        <div class="controls">
+            <button id="prevBtn" type="button">Previous</button>
+            <p id="counter">1 / 4</p>
+            <button id="nextBtn" type="button">Next</button>
+        </div>
+    </main>
+
+    <script src="projects.js"></script>
+</body>
+</html>
